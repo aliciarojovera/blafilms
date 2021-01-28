@@ -62,6 +62,7 @@ button {
   padding: 10px;
   display: grid;
   grid-template-columns: 25% 75%;
+  display: flex;
 }
 
 .search-item img {
@@ -81,8 +82,29 @@ button {
   color: #457b9d;
   font-weight: bold;
   font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 10px;
 }
 
 .search-item .search-item-data .meta {
   font-size: 14px;
+  margin-left: 5px;
+}
+
+.p-msg{
+  text-align: center;
+  padding-top:50px
+}
+
+.back{
+  display: block;
+  margin:0 auto;
+  border-radius: 5px;
+}
+
+@media(max-width:800px){
+.search-item {
+  display: block;
+}
+
 }
